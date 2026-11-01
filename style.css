@@ -35,6 +35,7 @@ body {
   background-size: cover;
   background-position: center;
   display: flex;
+
   flex-direction: column;
   justify-content: flex-end;
   padding: 32px 44px;
@@ -90,8 +91,15 @@ body {
 }
 
 @keyframes pulseAnimation {
-  0% { transform: scale(0.5); opacity: 1; }
-  100% { transform: scale(1.8); opacity: 0; }
+  0% {
+    transform: scale(0.5);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
 }
 
 /* Sticky search & category tabs */
@@ -632,23 +640,29 @@ body {
     height: 230px;
     padding: 24px 28px;
   }
+
   .header-banner h1 {
     font-size: 28px;
   }
+
   .sticky-nav {
     padding: 14px 24px;
     flex-direction: column;
     align-items: stretch;
   }
+
   .search-box {
     max-width: 100%;
   }
+
   .menu-content {
     padding: 20px 24px;
   }
+
   .site-footer {
     padding: 24px;
   }
+
   .footer-wrapper {
     flex-direction: column;
     align-items: stretch;
@@ -661,23 +675,29 @@ body {
     height: 180px;
     padding: 16px 20px;
   }
+
   .header-banner h1 {
     font-size: 24px;
   }
+
   .sticky-nav {
     padding: 12px 16px 8px;
   }
+
   .menu-content {
     padding: 16px;
   }
+
   .food-list {
     grid-template-columns: 1fr;
     gap: 12px;
   }
+
   .food-img-wrapper {
     width: 90px;
     height: 90px;
   }
+
   .site-footer {
     padding: 20px 16px;
   }
