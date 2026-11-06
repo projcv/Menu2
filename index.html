@@ -4,40 +4,219 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mr.5 - Menu Đồ Ăn Sáng</title>
+  <title>Mr.5 • Menu Bữa Sáng Chill & Ngon</title>
+  <meta name="description"
+    content="Menu đồ ăn sáng ngon, lành, healthy từ Mr.5. Đặt trước có ngay bữa sáng tràn đầy năng lượng!">
+
+  <!-- Google Fonts: Be Vietnam Pro & Outfit for young, modern aesthetic -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Outfit:wght@600;700;800;900&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
   <div class="app-container">
-    <!-- Header -->
+    <!-- Phông nền hoa lá cành chân thực & Quầng sáng Aurora tự nhiên (Botanical Studio Canvas) -->
+    <div class="botanical-canvas" aria-hidden="true">
+      <!-- Các quầng sáng Aurora rực rỡ tạo chiều sâu không gian -->
+      <div class="aurora-blob blob-orange"></div>
+      <div class="aurora-blob blob-green"></div>
+      <div class="aurora-blob blob-amber"></div>
+
+      <!-- Cành lá bạch đàn (Eucalyptus) mềm mại, chân thực góc trên phải -->
+      <div class="botanical-art branch-eucalyptus-tr">
+        <svg viewBox="0 0 240 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="eucGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#34d399" stop-opacity="0.85" />
+              <stop offset="50%" stop-color="#059669" stop-opacity="0.8" />
+              <stop offset="100%" stop-color="#064e3b" stop-opacity="0.9" />
+            </linearGradient>
+            <linearGradient id="eucGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#6ee7b7" stop-opacity="0.8" />
+              <stop offset="60%" stop-color="#10b981" stop-opacity="0.85" />
+              <stop offset="100%" stop-color="#047857" stop-opacity="0.9" />
+            </linearGradient>
+          </defs>
+          <path d="M220 10 Q 140 100 40 280" stroke="#047857" stroke-width="2.5" stroke-linecap="round" />
+          <path d="M205 35 C 165 20, 140 55, 175 75 C 205 90, 225 60, 205 35 Z" fill="url(#eucGrad1)" />
+          <path d="M205 35 Q 185 58 175 75" stroke="rgba(255,255,255,0.4)" stroke-width="1.2" stroke-linecap="round" />
+          <path d="M165 80 C 195 70, 215 110, 175 125 C 145 135, 135 95, 165 80 Z" fill="url(#eucGrad2)" />
+          <path d="M165 80 Q 170 105 175 125" stroke="rgba(255,255,255,0.35)" stroke-width="1.2"
+            stroke-linecap="round" />
+          <path d="M135 130 C 95 115, 80 155, 115 175 C 145 190, 165 155, 135 130 Z" fill="url(#eucGrad1)" />
+          <path d="M135 130 Q 125 155 115 175" stroke="rgba(255,255,255,0.4)" stroke-width="1.2"
+            stroke-linecap="round" />
+          <path d="M105 185 C 135 175, 150 215, 115 230 C 85 240, 75 200, 105 185 Z" fill="url(#eucGrad2)" />
+          <path d="M105 185 Q 110 210 115 230" stroke="rgba(255,255,255,0.35)" stroke-width="1.2"
+            stroke-linecap="round" />
+          <path d="M65 240 C 35 225, 25 260, 55 275 C 80 285, 95 255, 65 240 Z" fill="url(#eucGrad1)" />
+        </svg>
+      </div>
+
+      <!-- Cành lá Oliu / Thảo mộc tự nhiên bên trái -->
+      <div class="botanical-art branch-olive-ml">
+        <svg viewBox="0 0 220 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="oliveGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#34d399" stop-opacity="0.85" />
+              <stop offset="60%" stop-color="#059669" stop-opacity="0.8" />
+              <stop offset="100%" stop-color="#064e3b" stop-opacity="0.9" />
+            </linearGradient>
+            <linearGradient id="oliveGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#6ee7b7" stop-opacity="0.8" />
+              <stop offset="60%" stop-color="#10b981" stop-opacity="0.85" />
+              <stop offset="100%" stop-color="#047857" stop-opacity="0.9" />
+            </linearGradient>
+          </defs>
+          <path d="M20 280 Q 80 160 190 20" stroke="#065f46" stroke-width="2.5" stroke-linecap="round" />
+          <path d="M55 230 C 25 195, 30 155, 75 170 C 110 185, 95 235, 55 230 Z" fill="url(#oliveGrad2)" />
+          <path d="M55 230 Q 65 195 75 170" stroke="rgba(255,255,255,0.35)" stroke-width="1.2" stroke-linecap="round" />
+          <path d="M95 175 C 135 145, 165 175, 140 210 C 110 235, 80 205, 95 175 Z" fill="url(#oliveGrad1)" />
+          <path d="M130 125 C 95 95, 105 55, 145 75 C 175 95, 165 135, 130 125 Z" fill="url(#oliveGrad2)" />
+          <path d="M165 70 C 195 40, 215 65, 195 95 C 175 115, 150 95, 165 70 Z" fill="url(#oliveGrad1)" />
+        </svg>
+      </div>
+
+      <!-- Cành lá thảo mộc mềm mại góc dưới phải -->
+      <div class="botanical-art branch-herb-br">
+        <svg viewBox="0 0 200 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="herbGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#6ee7b7" stop-opacity="0.85" />
+              <stop offset="50%" stop-color="#10b981" stop-opacity="0.85" />
+              <stop offset="100%" stop-color="#047857" stop-opacity="0.9" />
+            </linearGradient>
+            <linearGradient id="herbGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#a7f3d0" stop-opacity="0.8" />
+              <stop offset="60%" stop-color="#34d399" stop-opacity="0.85" />
+              <stop offset="100%" stop-color="#059669" stop-opacity="0.9" />
+            </linearGradient>
+          </defs>
+          <path d="M190 220 Q 120 120 40 20" stroke="#047857" stroke-width="2.2" stroke-linecap="round" />
+          <path d="M150 170 C 180 150, 185 115, 150 125 C 120 135, 125 175, 150 170 Z" fill="url(#herbGrad1)" />
+          <path d="M115 120 C 80 100, 85 65, 115 75 C 145 85, 140 125, 115 120 Z" fill="url(#herbGrad2)" />
+          <path d="M75 70 C 45 45, 60 20, 85 35 C 110 50, 95 85, 75 70 Z" fill="url(#herbGrad1)" />
+        </svg>
+      </div>
+    </div>
+
+    <!-- Header Hero Banner -->
     <header class="header-banner">
-      <h1>Menu đồ ăn sáng</h1>
-      <div class="status-badge">
-        <span class="status-dot-wrap">
-          <span class="status-dot-pulse"></span>
-          <span class="status-dot"></span>
-        </span>
-        <span>Đang mở cửa phục vụ</span>
+      <div class="header-overlay"></div>
+
+      <div class="header-content">
+        <div class="header-top-row">
+          <div class="brand-badge-pill">
+            <span class="brand-icon">🥪</span>
+            <span class="brand-text">MR5 BREAKFAST</span>
+            <span class="brand-sparkle">✨</span>
+          </div>
+
+          <!-- <div class="header-rating-badge">
+            <span class="star-icon">⭐</span>
+            <span class="rating-val">4.9 / 5.0</span>
+            <span class="rating-sub">• 1.500+ bữa sáng yêu thích</span>
+          </div> -->
+        </div>
+
+        <h1 class="header-title">Menu Đồ Ăn Sáng</h1>
+        <p class="header-tagline">Nạp năng lượng ngày mới • Ăn ngon dáng xinh • Ship tận tay 🛵</p>
+
+        <div class="header-meta-row">
+          <div class="status-badge">
+            <span class="status-dot-wrap">
+              <span class="status-dot-pulse"></span>
+              <span class="status-dot"></span>
+            </span>
+            <span>Đang mở cửa phục vụ</span>
+          </div>
+
+          <div class="perk-tag">
+            <span>⚡ Đặt trước sáng mai</span>
+          </div>
+          <div class="perk-tag">
+            <span>🥑 Chuẩn vị Healthy</span>
+          </div>
+          <div class="perk-tag highlight-perk">
+            <span>🔥 Nóng hổi mỗi sáng</span>
+          </div>
+        </div>
       </div>
     </header>
 
-    <!-- Navigation & Filter -->
+    <!-- Dải chữ chạy sống động phong cách Trend Gen Z (Trending Marquee) -->
+    <div class="trending-marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>☀️ CHÀO NGÀY MỚI CÙNG MR5</span>
+        <span class="star">✦</span>
+        <span>🥪 BỮA SÁNG NÓNG HỔI TƯƠI MỚI MỖI NGÀY</span>
+        <span class="star">✦</span>
+        <span>🥑 EAT CLEAN - HEALTHY</span>
+        <span class="star">✦</span>
+        <span>🛵 GIAO NHANH TẬN TAY ĐÚNG HẸN</span>
+        <span class="star">✦</span>
+        <span>💬 NHẮN ZALO 0985.395.711 ĐẶT TRƯỚC</span>
+        <span class="star">✦</span>
+        <span>💯 NGUYÊN LIỆU TƯƠI SẠCH</span>
+        <span class="star">✦</span>
+        <!-- Lặp lại để cuộn vô tận mượt mà -->
+        <span>☀️ CHÀO NGÀY MỚI CÙNG MR5</span>
+        <span class="star">✦</span>
+        <span>🥪 BỮA SÁNG NÓNG HỔI TƯƠI MỚI MỖI NGÀY</span>
+        <span class="star">✦</span>
+        <span>🥑 EAT CLEAN - HEALTHY</span>
+        <span class="star">✦</span>
+        <span>🛵 GIAO NHANH TẬN TAY ĐÚNG HẸN</span>
+        <span class="star">✦</span>
+        <span>💬 NHẮN ZALO 0985.395.711 ĐẶT TRƯỚC</span>
+        <span class="star">✦</span>
+        <span>💯 NGUYÊN LIỆU TƯƠI SẠCH</span>
+        <span class="star">✦</span>
+      </div>
+    </div>
+
+    <!-- Sticky Navigation & Search -->
     <div class="sticky-nav">
-      <div class="category-tabs">
-        <button class="tab-btn active" data-category="all">Tất cả</button>
-        <button class="tab-btn" data-category="banh-trai">Bánh trái</button>
-        <button class="tab-btn" data-category="do-heo-thi">Đồ heo thì</button>
-        <button class="tab-btn" data-category="khac">Khác</button>
+      <div class="category-tabs-wrapper">
+        <div class="category-tabs" id="categoryTabs">
+          <button class="tab-btn active" data-category="all">
+            <span class="tab-icon">✨</span>
+            <span class="tab-label">Tất cả món</span>
+          </button>
+          <button class="tab-btn" data-category="banh-trai">
+            <span class="tab-icon">🥐</span>
+            <span class="tab-label">Ăn chậm nhai kỹ</span>
+          </button>
+          <button class="tab-btn" data-category="do-heo-thi">
+            <span class="tab-icon">🥗</span>
+            <span class="tab-label">Gầy (Healthy)</span>
+          </button>
+          <button class="tab-btn" data-category="khac">
+            <span class="tab-icon">🍱</span>
+            <span class="tab-label">Món khác</span>
+          </button>
+        </div>
       </div>
 
       <div class="search-box">
-        <svg viewBox="0 0 24 24">
+        <svg class="search-icon" viewBox="0 0 24 24">
           <circle cx="11" cy="11" r="8"></circle>
           <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
         </svg>
-        <input type="text" id="searchInput" placeholder="Tìm món (ví dụ: bánh, sữa, phở...)" />
+        <input type="text" id="searchInput" placeholder="Tìm món (bánh dày, khoai, kimbap...)" autocomplete="off" />
+        <button class="clear-search-btn" id="clearSearchBtn" type="button" title="Xóa tìm kiếm"
+          aria-label="Xóa tìm kiếm">
+          <svg viewBox="0 0 24 24">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
       </div>
     </div>
 
@@ -47,67 +226,366 @@
     <!-- Footer -->
     <footer class="site-footer">
       <div class="footer-wrapper">
-        <div>
-          <div class="footer-title">Thông tin liên hệ & Đặt món</div>
-          <div class="contact-links">
-            <a href="https://zalo.me/0985395711" target="_blank" class="contact-btn btn-zalo">
+        <!-- THẺ 1: Thông tin quán & Kết nối Mạng xã hội (Cân đối hoàn hảo với thẻ QR) -->
+        <div class="footer-card footer-brand-card">
+          <div class="card-top-bar">
+            <span class="card-pill pill-brand">🥪 THÔNG TIN &amp; KẾT NỐI</span>
+            <span class="card-status-live">
+              <span class="pulse-dot"></span>
+              <span>Đang mở cửa phục vụ</span>
+            </span>
+          </div>
+
+          <div class="brand-body">
+            <div class="footer-brand">
+              <span class="footer-logo">🥪</span>
+              <span class="footer-name">Mr.5 Breakfast Vibes</span>
+            </div>
+            <p class="footer-desc">
+              Bữa sáng tràn đầy năng lượng cho người bận rộn. Chuẩn vị truyền thống &amp; thực đơn healthy thanh đạm, ship nóng hổi tận tay mỗi sáng.
+            </p>
+
+            <div class="brand-features-row">
+              <span class="feature-chip">🛵 Giao nhanh đúng hẹn</span>
+              <span class="feature-chip">🥑 Chuẩn Eat Clean</span>
+              <span class="feature-chip">🔥 Nóng hổi sáng sớm</span>
+            </div>
+          </div>
+
+          <!-- Nút liên hệ trực tiếp -->
+          <div class="contact-actions">
+            <a href="https://zalo.me/0985395711" target="_blank" rel="noopener" class="contact-btn btn-zalo">
               <svg viewBox="0 0 24 24">
                 <path
                   d="M12 2C6.48 2 2 6.03 2 11c0 2.87 1.5 5.43 3.84 7.08l-.84 3.09 3.42-1.68C9.55 19.81 10.75 20 12 20c5.52 0 10-4.03 10-9s-4.48-9-10-9z" />
               </svg>
-              Zalo: 0985.395.711
+              <span>Nhắn Zalo: 0985.395.711</span>
             </a>
-            <!-- <a href="https://facebook.com" target="_blank" class="contact-btn btn-facebook">
-              <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-              Facebook Quán
-            </a> -->
+
+            <button class="copy-btn" id="copyPhoneBtn" onclick="copyPhoneNumber('0985395711')" type="button">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span id="copyPhoneText">Sao chép SĐT</span>
+            </button>
+          </div>
+
+          <!-- Mạng xã hội & Link đánh giá -->
+          <div class="social-channels">
+            <span class="social-lead">Mạng xã hội &amp; Đánh giá:</span>
+            <div class="social-links-row">
+              <a href="https://www.facebook.com/yo.kai.52459" target="_blank" rel="noopener"
+                class="social-chip chip-facebook" title="Facebook Quán Mr.5">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                </svg>
+                <span>Facebook</span>
+              </a>
+
+              <a href="https://www.tiktok.com/@beobeo27123?_r=1&_t=ZS-9B926H5sr95" target="_blank" rel="noopener"
+                class="social-chip chip-tiktok" title="TikTok Quán Mr.5">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.29 0 .58.04.85.12V9.32a6.34 6.34 0 0 0-.85-.06 6.34 6.34 0 1 0 6.34 6.34V8.58a8.28 8.28 0 0 0 4.84 1.55v-3.44h-.07z" />
+                </svg>
+                <span>TikTok</span>
+              </a>
+
+              <a href="https://www.threads.com/@_vtn.27" target="_blank" rel="noopener" class="social-chip chip-threads"
+                title="Threads Quán Mr.5">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12.186 24h-.007c-3.581-.024-6.334-1.205-8.184-3.509C2.274 18.31 1.5 15.347 1.688 11.666c.382-7.464 6.002-11.47 10.364-11.66 4.387-.193 9.479 2.775 9.887 9.948.169 3.033-.497 5.642-1.979 7.755-1.742 2.483-4.331 3.864-7.487 4.004-.336.015-.672.023-1.006.023-4.237 0-6.721-2.128-6.994-5.992l-.008-.124c-.015-.246.069-.489.232-.67.163-.182.395-.285.638-.285.498 0 .913.385.938.882.213 3.023 2.052 4.606 5.234 4.606.273 0 .546-.007.82-.02 2.502-.11 4.526-1.196 5.852-3.14 1.205-1.768 1.74-3.957 1.591-6.505-.348-5.986-4.527-8.397-8.163-8.237-3.693.161-8.271 3.535-8.583 9.878-.158 3.197.498 5.766 1.95 7.636 1.523 1.961 3.824 2.97 6.84 2.999h.007c2.617 0 4.881-.795 6.729-2.364a.897.897 0 0 1 1.261.107.904.904 0 0 1-.106 1.264c-2.124 1.801-4.717 2.714-7.708 2.714zm1.905-8.777c-.989-.092-2.193-.393-2.923-1.018-.621-.532-.976-1.272-1.002-2.083-.04-.972.339-1.895 1.042-2.528.799-.718 1.964-1.045 3.376-.948 1.344.093 2.378.537 2.827.896.166.133.275.326.304.536.03.21-.02.423-.138.59-.228.324-.685.405-1.01.176-.239-.168-.971-.476-2.022-.549-1.082-.075-1.928.165-2.446.697-.433.444-.666 1.049-.641 1.66.017.519.243.991.637 1.328.471.403 1.344.621 2.213.702.327.03.666.046 1.01.046 2.051 0 3.615-.658 4.647-1.954.08-.101.15-.205.21-.313.123-.223.344-.373.595-.402.253-.028.502.067.674.254.341.37.288.948-.12 1.282-.132.107-.279.227-.437.355-1.348 1.102-3.141 1.66-5.334 1.66-.301 0-.594-.012-.876-.039z" />
+                </svg>
+                <span>Threads</span>
+              </a>
+
+              <a href="https://forms.gle/aU2Xp2FwX7NSMzkB6" target="_blank" rel="noopener"
+                class="social-chip chip-form-review" title="Mở biểu mẫu Google Form đánh giá">
+                <span class="star-icon">⭐</span>
+                <span>Gửi đánh giá</span>
+              </a>
+            </div>
           </div>
         </div>
 
-        <div class="qr-container">
-          <img class="qr-image" src="images/zalome.jpg" alt="QR Website" id="qrWebImg">
-          <div class="qr-info">
-            <h4>Quét Zalo</h4>
-            <p>Quét mã để kết nối nhanh hoặc gửi thông tin đặt trước bữa sáng.</p>
+        <!-- THẺ 2: Trạm quét mã QR thông minh: Tách riêng từng mã, chống quét nhầm 100% -->
+        <div class="footer-card footer-qr-hub">
+          <div class="card-top-bar">
+            <span class="card-pill pill-qr">⚡ TRẠM QUÉT MÃ QR</span>
+            <div class="qr-view-toggle">
+              <button class="qr-toggle-btn active" id="qrToggleSingle" onclick="setQRViewMode('single')" type="button">
+                <span>Từng mã (Khuyên dùng)</span>
+              </button>
+              <button class="qr-toggle-btn" id="qrToggleAll" onclick="setQRViewMode('all')" type="button">
+                <span>Cả 3 mã</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- CHẾ ĐỘ 1: XEM TỪNG MÃ (Tách biệt hoàn toàn, không thể quét nhầm) -->
+          <div class="qr-single-container" id="qrSingleContainer">
+            <!-- Tabs chọn mã riêng biệt -->
+            <div class="qr-tab-switcher">
+              <button class="qr-tab-btn active" data-qrtarget="zalo" onclick="switchQRTab('zalo')" type="button">
+                <span class="tab-emoji">💬</span>
+                <span class="tab-text">Zalo Đặt Món</span>
+              </button>
+              <button class="qr-tab-btn" data-qrtarget="review" onclick="switchQRTab('review')" type="button">
+                <span class="tab-emoji">⭐</span>
+                <span class="tab-text">Đánh Giá Món</span>
+              </button>
+              <button class="qr-tab-btn" data-qrtarget="web" onclick="switchQRTab('web')" type="button">
+                <span class="tab-emoji">🌐</span>
+                <span class="tab-text">Menu Website</span>
+              </button>
+            </div>
+
+            <!-- Panel Zalo -->
+            <div class="qr-focus-panel active" id="qrPanel-zalo">
+              <div class="qr-display-box qr-box-zalo"
+                onclick="openQRModal('images/zalome.jpg', 'Zalo Đặt Bữa Sáng Mr.5', 'Quét kết nối Zalo với Mr.5 (0985.395.711) để đặt món giao tận nơi 🛵', 'https://zalo.me/0985395711')">
+                <div class="qr-img-wrapper">
+                  <img src="images/zalome.jpg" alt="QR Zalo Mr.5" loading="lazy" />
+                  <div class="scan-bracket corner-tl"></div>
+                  <div class="scan-bracket corner-tr"></div>
+                  <div class="scan-bracket corner-bl"></div>
+                  <div class="scan-bracket corner-br"></div>
+                </div>
+                <div class="qr-zoom-hint">
+                  <svg viewBox="0 0 24 24">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                  <span>Chạm để phóng to mã</span>
+                </div>
+              </div>
+              <div class="qr-panel-info">
+                <span class="qr-purpose-badge badge-zalo">💬 ĐẶT MÓN NHANH</span>
+                <h4 class="qr-panel-title">Mã Zalo Mr.5 Breakfast</h4>
+                <p class="qr-panel-desc">Kết nối Zalo đặt trước bữa sáng thơm ngon, đúng hẹn ship tận tay.</p>
+                <a href="https://zalo.me/0985395711" target="_blank" rel="noopener"
+                  class="qr-action-btn btn-zalo-direct">
+                  <span>Nhắn Zalo: 0985.395.711</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Panel Đánh Giá Sản Phẩm (Liên kết Google Form) -->
+            <div class="qr-focus-panel" id="qrPanel-review">
+              <div class="qr-display-box qr-box-review"
+                onclick="openQRModal('images/QRReview.png', 'Đánh Giá Sản Phẩm & Dịch Vụ', 'Quét mã để gửi cảm nhận, đánh giá món ăn và phản hồi cho quán Mr.5 ✨', 'https://forms.gle/aU2Xp2FwX7NSMzkB6')">
+                <div class="qr-img-wrapper">
+                  <img src="images/QRReview.png" alt="QR Đánh Giá Sản Phẩm" loading="lazy" />
+                  <div class="scan-bracket corner-tl"></div>
+                  <div class="scan-bracket corner-tr"></div>
+                  <div class="scan-bracket corner-bl"></div>
+                  <div class="scan-bracket corner-br"></div>
+                </div>
+                <div class="qr-zoom-hint">
+                  <svg viewBox="0 0 24 24">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                  <span>Chạm để phóng to mã</span>
+                </div>
+              </div>
+              <div class="qr-panel-info">
+                <span class="qr-purpose-badge badge-review">⭐ ĐÁNH GIÁ SẢN PHẨM</span>
+                <h4 class="qr-panel-title">Mã Góp Ý &amp; Đánh Giá</h4>
+                <p class="qr-panel-desc">Món ăn hôm nay của bạn thế nào? Quét mã hoặc bấm nút bên dưới để mở form đánh giá nhé!</p>
+                <a href="https://forms.gle/aU2Xp2FwX7NSMzkB6" target="_blank" rel="noopener"
+                  class="qr-action-btn btn-review-direct">
+                  <span>Mở Google Form đánh giá</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Panel Web Menu -->
+            <div class="qr-focus-panel" id="qrPanel-web">
+              <div class="qr-display-box qr-box-web"
+                onclick="openQRModal('images/QRWeb.png', 'Lưu & Chia Sẻ Menu Web', 'Quét mã để lưu menu trên điện thoại hoặc chia sẻ cùng hội bạn!')">
+                <div class="qr-img-wrapper">
+                  <img src="images/QRWeb.png" alt="QR Website Menu" loading="lazy" />
+                  <div class="scan-bracket corner-tl"></div>
+                  <div class="scan-bracket corner-tr"></div>
+                  <div class="scan-bracket corner-bl"></div>
+                  <div class="scan-bracket corner-br"></div>
+                </div>
+                <div class="qr-zoom-hint">
+                  <svg viewBox="0 0 24 24">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    <line x1="11" y1="8" x2="11" y2="14"></line>
+                    <line x1="8" y1="11" x2="14" y2="11"></line>
+                  </svg>
+                  <span>Chạm để phóng to mã</span>
+                </div>
+              </div>
+              <div class="qr-panel-info">
+                <span class="qr-purpose-badge badge-web">🌐 LƯU MENU WEB</span>
+                <h4 class="qr-panel-title">Mã Trang Web Menu</h4>
+                <p class="qr-panel-desc">Quét để lưu trang menu trên trình duyệt điện thoại, chia sẻ link cho đồng nghiệp và bạn bè.</p>
+                <button type="button" class="qr-action-btn btn-web-direct" onclick="copyMenuUrl()">
+                  <span>Sao chép link Menu Web</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- CHẾ ĐỘ 2: HIỂN THỊ CẢ 3 MÃ RIÊNG BIỆT (Khoảng cách rộng rãi, có viền màu phân biệt) -->
+          <div class="qr-all-grid" id="qrAllGrid" style="display: none;">
+            <!-- Thẻ Zalo -->
+            <div class="qr-isolated-card card-zalo">
+              <div class="isolated-card-header">
+                <span class="card-chip chip-zalo">💬 Đặt món</span>
+                <span class="card-name">Zalo Mr.5</span>
+              </div>
+              <div class="isolated-qr-frame"
+                onclick="openQRModal('images/zalome.jpg', 'Zalo Đặt Bữa Sáng Mr.5', 'Quét kết nối Zalo với Mr.5 để đặt món giao tận nơi', 'https://zalo.me/0985395711')">
+                <img src="images/zalome.jpg" alt="QR Zalo" loading="lazy" />
+              </div>
+              <span class="card-caption">Quét để nhắn Zalo</span>
+            </div>
+
+            <!-- Thẻ Đánh giá -->
+            <div class="qr-isolated-card card-review">
+              <div class="isolated-card-header">
+                <span class="card-chip chip-review">⭐ Đánh giá</span>
+                <span class="card-name">Góp ý món</span>
+              </div>
+              <div class="isolated-qr-frame"
+                onclick="openQRModal('images/QRReview.png', 'Đánh Giá Sản Phẩm & Dịch Vụ', 'Quét mã để gửi cảm nhận, đánh giá món ăn và phản hồi cho quán Mr.5 ✨', 'https://forms.gle/aU2Xp2FwX7NSMzkB6')">
+                <img src="images/QRReview.png" alt="QR Đánh giá" loading="lazy" />
+              </div>
+              <a href="https://forms.gle/aU2Xp2FwX7NSMzkB6" target="_blank" rel="noopener" class="card-caption link-review">Mở Google Form ›</a>
+            </div>
+
+            <!-- Thẻ Web Menu -->
+            <div class="qr-isolated-card card-web">
+              <div class="isolated-card-header">
+                <span class="card-chip chip-web">🌐 Menu web</span>
+                <span class="card-name">Lưu trang</span>
+              </div>
+              <div class="isolated-qr-frame"
+                onclick="openQRModal('images/QRWeb.png', 'Lưu & Chia Sẻ Menu Web', 'Quét mã để lưu menu trên điện thoại hoặc chia sẻ cùng hội bạn!')">
+                <img src="images/QRWeb.png" alt="QR Web" loading="lazy" />
+              </div>
+              <span class="card-caption">Quét lưu menu</span>
+            </div>
+          </div>
+
+          <div class="qr-scan-guide">
+            <span class="guide-icon">🛡️</span>
+            <span>Mẹo: Nhấn vào mã QR bất kỳ để phóng to toàn màn hình và quét dễ dàng hơn!</span>
           </div>
         </div>
-        <div class="qr-container">
-          <img class="qr-image" src="images/QRWeb.png" alt="QR Website" id="qrWebImg">
-          <div class="qr-info">
-            <h4>Quét QR Website</h4>
-            <p>Quét mã để kết nối nhanh hoặc gửi thông tin đặt trước bữa sáng.</p>
-          </div>
-        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Mr.5 Breakfast • Chúc bạn một ngày mới tràn đầy năng lượng &amp; rạng rỡ ✨</p>
       </div>
     </footer>
   </div>
 
+  <!-- Nút đặt món nổi (Floating Action Button) -->
+  <a href="https://zalo.me/0985395711" target="_blank" rel="noopener" class="floating-fab" id="floatingFab"
+    title="Nhắn Zalo đặt món ngay">
+    <span class="fab-pulse-ring"></span>
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path
+        d="M12 2C6.48 2 2 6.03 2 11c0 2.87 1.5 5.43 3.84 7.08l-.84 3.09 3.42-1.68C9.55 19.81 10.75 20 12 20c5.52 0 10-4.03 10-9s-4.48-9-10-9z" />
+    </svg>
+    <span class="fab-label">Đặt món ngay ⚡</span>
+  </a>
+
+  <!-- Toast Thông báo tiện lợi -->
+  <div class="toast-popup" id="toastPopup">
+    <span class="toast-icon">✨</span>
+    <span class="toast-msg" id="toastMsg">Đã sao chép!</span>
+  </div>
+
   <!-- Modal Phóng to ảnh (Lightbox) -->
   <div class="lightbox-modal" id="lightboxModal">
+    <div class="lightbox-backdrop"></div>
     <div class="lightbox-content">
+      <button class="lightbox-close-btn" id="closeLightboxBtn" title="Đóng (Esc)" aria-label="Đóng popup">
+        <svg viewBox="0 0 24 24">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
       <div class="lightbox-img-wrap">
-        <button class="lightbox-close-btn" id="closeLightboxBtn" title="Đóng (Esc)">
-          <svg viewBox="0 0 24 24">
-            <line x1="18" y1="6" x2="6" y2="18"></line>
-            <line x1="6" y1="6" x2="18" y2="18"></line>
-          </svg>
-        </button>
         <img class="lightbox-img" id="lightboxImg" src="" alt="Món ăn chi tiết" />
+        <span class="lightbox-badge" id="lightboxBadge" style="display: none;"></span>
       </div>
+
       <div class="lightbox-details">
-        <span class="lightbox-category" id="lightboxCategory">Bánh trái</span>
+        <div class="lightbox-category-pill" id="lightboxCategory">Bánh trái</div>
         <h3 class="lightbox-title" id="lightboxTitle">Tên món ăn</h3>
         <p class="lightbox-desc" id="lightboxDesc">Mô tả món ăn</p>
+
         <div class="lightbox-footer">
-          <div class="lightbox-price" id="lightboxPrice">0 đ</div>
-          <a href="https://zalo.me/0985395711" target="_blank" class="lightbox-order-btn">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+          <div class="lightbox-price-wrap">
+            <span class="price-sub">Giá món</span>
+            <div class="lightbox-price" id="lightboxPrice">0</div>
+          </div>
+          <a href="https://zalo.me/0985395711" id="lightboxOrderLink" target="_blank" rel="noopener"
+            class="lightbox-order-btn">
+            <svg viewBox="0 0 24 24" fill="currentColor">
               <path
                 d="M12 2C6.48 2 2 6.03 2 11c0 2.87 1.5 5.43 3.84 7.08l-.84 3.09 3.42-1.68C9.55 19.81 10.75 20 12 20c5.52 0 10-4.03 10-9s-4.48-9-10-9z" />
             </svg>
-            Nhắn Zalo đặt món
+            <span>Nhắn Zalo đặt món ngay</span>
           </a>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Phóng to quét mã QR riêng biệt (Zero Mis-scan) -->
+  <div class="qr-lightbox-modal" id="qrModal" aria-hidden="true">
+    <div class="qr-modal-backdrop" onclick="closeQRModal()"></div>
+    <div class="qr-modal-card">
+      <button class="qr-modal-close" onclick="closeQRModal()" type="button" aria-label="Đóng (Esc)">
+        <svg viewBox="0 0 24 24"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <div class="qr-modal-badge" id="qrModalBadge">⚡ QUÉT MÃ TRỰC TIẾP</div>
+      <h3 class="qr-modal-title" id="qrModalTitle">Mã QR</h3>
+      <p class="qr-modal-subtitle" id="qrModalSubtitle">Hướng camera điện thoại vào mã bên dưới để quét</p>
+
+      <div class="qr-modal-img-frame">
+        <img id="qrModalImg" src="" alt="Mã QR phóng to" />
+        <div class="scan-bracket corner-tl"></div>
+        <div class="scan-bracket corner-tr"></div>
+        <div class="scan-bracket corner-bl"></div>
+        <div class="scan-bracket corner-br"></div>
+      </div>
+
+      <div class="qr-modal-action-slot" id="qrModalActionSlot"></div>
+
+      <div class="qr-modal-footer">
+        <span class="qr-safe-tip">🛡️ Mã đã được cô lập toàn màn hình • 100% không lo quét nhầm</span>
       </div>
     </div>
   </div>
@@ -117,149 +595,178 @@
       {
         id: 1,
         category: "banh-trai",
-        categoryName: "Bánh trái",
-        name: "Bánh dày chả mỡ/giò lụa (cái)",
-        description: "Hương vị tuyệt hảo làm say đắm lòng người.",
-        price: "15.000 - 20.000 đ",
+        categoryName: "Ăn chậm nhai kỹ",
+        badge: "Bán chạy 🔥",
+        name: "Bánh dày chả mỡ/giò lụa",
+        description: "Bánh dày dẻo thơm nếp mới kẹp chả mỡ thơm ngậy hoặc giò lụa thanh ngọt giòn sần sật.",
+        price: "15.000 - 20.000 / Cái",
         image: "images/banhdaygio.jpg",
         fallbackImage: "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=600&q=80"
       },
       {
         id: 2,
         category: "banh-trai",
-        categoryName: "Bánh trái",
-        name: "Bánh cuốn (hộp)",
-        description: "Bánh cuốn mềm mịn, ăn kèm chả và hành phi thơm nức.",
-        price: "15.000 - 20.000 đ",
-        image: "https://i.pinimg.com/736x/d8/36/d0/d836d05999c88a956ecb4df737072f0d.jpg",
-        fallbackImage: "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&w=600&q=80"
+        categoryName: "Ăn chậm nhai kỹ",
+        badge: "Ăn là quấn 🥢",
+        name: "Bánh quấn",
+        description: "Bánh cuốn tráng mỏng mềm mướt, ngập nhân thịt mộc nhĩ thơm phức chấm nước mắm ấm bụng.",
+        price: "15.000 - 20.000 / Hộp",
+        image: "images/banhcuon.jpg",
+        fallbackImage: "image/banhcuon.jpg"
       },
       {
         id: 3,
         category: "banh-trai",
-        categoryName: "Bánh trái",
-        name: "Bánh khúc (cái)",
-        description: "Bánh khúc dẻo thơm, đậm đà nhân thịt đỗ bùi béo nóng hổi.",
-        price: 15000,
-        image: "https://daylambanh.edu.vn/wp-content/uploads/2017/09/banh-khuc-deo-thom-bui.jpg",
+        categoryName: "Ăn chậm nhai kỹ",
+        badge: "Dẻo thơm 🍃",
+        name: "Bánh khúc khích",
+        description: "Bánh khúc dẻo quánh nếp nhung, nhân đậu xanh bùi ngậy quện thịt ba chỉ tiêu thơm nức.",
+        price: "15.000 / Cái",
+        image: "images/banhkhuc.jpg",
         fallbackImage: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"
       },
       {
         id: 4,
         category: "banh-trai",
-        categoryName: "Bánh trái",
-        name: "Bánh giò (cái)",
-        description: "Vỏ bánh mềm mượt, nhân thịt mộc nhĩ nêm nếm đậm đà vừa vị.",
-        price: 15000,
-        image: "https://th.bing.com/th/id/OSK.e07a49418d8c7e11beefbf135611d4ef?w=424&h=424&c=7&rs=1&qlt=90&o=6&pid=16.1",
+        categoryName: "Ăn chậm nhai kỹ",
+        badge: "Đậm đà ♨️",
+        name: "Bánh dò",
+        description: "Bánh giò nóng hổi núng nính, vỏ bột mềm tan, nhân thịt băm mộc nhĩ nêm đậm đà thơm hạt tiêu.",
+        price: "12.000 / Cái",
+        image: "https://i.pinimg.com/originals/be/c7/54/bec7543bcbe90184a5cea5a9064ee00d.jpg",
         fallbackImage: "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=600&q=80"
       },
       {
         id: 5,
         category: "banh-trai",
-        categoryName: "Bánh trái",
-        name: "Bánh tẻ (2c/cặp)",
-        description: "Bánh tẻ dẻo thơm, nhân thịt mộc nhĩ giòn sần sật chuẩn vị quê.",
-        price: 15000,
-        image: "https://imagevietnam.vnanet.vn/MediaUpload/Org/2023/04/24/9avatar24-10-43-10.jpg",
+        categoryName: "Ăn chậm nhai kỹ",
+        badge: "Chuẩn vị quê 🌾",
+        name: "Bánh tỉa",
+        description: "Bánh tẻ gói lá dong thơm ngát, dẻo dai bùi béo kết hợp nhân mộc nhĩ giòn sần sật ăn hoài không ngấy.",
+        price: "12.000 / Cặp",
+        image: "https://tse1.explicit.bing.net/th/id/OIP.sWebFyVya-auqL1FvKE4PwHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
         fallbackImage: "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80"
       },
       {
         id: 6,
         category: "banh-trai",
-        categoryName: "Bánh trái",
-        name: "Bánh rán (5c/hộp)",
-        description: "Bánh rán vỏ ngoài giòn rụm, thơm ngon ngọt ngào hấp dẫn.",
-        price: 15000,
-        image: "https://th.bing.com/th/id/OIP.KJYVI_k1s8hcz8qv7146ogHaE8?w=266&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
+        categoryName: "Ăn chậm nhai kỹ",
+        badge: "Giòn rụm 🍯",
+        name: "Bánh ráng",
+        description: "Bánh rán mật & đường vỏ giòn tan rôm rốp, nhân đậu xanh dừa bùi béo ngọt thanh thơm lừng.",
+        price: "15.000 / Hộp (5c)",
+        image: "https://th.bing.com/th/id/R.d44623cae43f50594a502ce6ae328014?rik=x5JapFRJwB%2f0kQ&pid=ImgRaw&r=0",
         fallbackImage: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80"
       },
       {
         id: 7,
         category: "do-heo-thi",
-        categoryName: "Đồ heo thì",
-        name: "Khoai lang luộc (kg)",
-        description: "Khoai mật ngọt tự nhiên, thực đơn healthy giàu chất xơ giữ dáng.",
-        price: 50000,
+        categoryName: "Gầy (Healthy)",
+        badge: "Healthy 🍠",
+        name: "Khoai lang thang",
+        description: "Khoai lang mật ủ vàng ươm chảy mật, ngọt lịm tự nhiên, giàu chất xơ giữ dáng no lâu.",
+        price: "50.000 / Kg",
         image: "images/khoailang.jpg",
         fallbackImage: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80"
       },
       {
         id: 9,
         category: "do-heo-thi",
-        categoryName: "Đồ heo thì",
-        name: "Hộp chay (hộp)",
-        description: "Thanh đạm mỗi thứ một tí, dinh dưỡng đủ đầy và nhẹ bụng.",
-        price: 20000,
+        categoryName: "Gầy (Healthy)",
+        badge: "Eat Clean 🥗",
+        name: "Hộp gầy",
+        description: "Set Eat Clean thanh đạm: khoai, ngô, trứng luộc & rau củ tươi non nạp năng lượng nhẹ bụng.",
+        price: "20.000 / Hộp",
         image: "images/hopchay.jpg",
         fallbackImage: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80"
       },
       {
         id: 10,
         category: "do-heo-thi",
-        categoryName: "Đồ heo thì",
-        name: "Kimbap (6 miếng/hộp)",
-        description: "Rong biển cuộn rau củ và trứng thanh mát, tiện lợi ngày mới.",
-        price: 15000,
+        categoryName: "Gầy (Healthy)",
+        badge: "Best Seller 🍙",
+        name: "Kimbap",
+        description: "Cơm cuộn lá rong biển tươi, nhân trứng cuộn, cà rốt & dưa chuột giòn mát chấm sốt thơm béo.",
+        price: "15.000 / Hộp (6m)",
         image: "images/sushi.jpg",
         fallbackImage: "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=600&q=80"
       },
       {
         id: 11,
         category: "do-heo-thi",
-        categoryName: "Đồ heo thì",
-        name: "Phở cuốn (3c/hộp)",
-        description: "Dinh dưỡng cân bằng, thanh mát và thơm ngon đậm đà.",
-        price: 15000,
+        categoryName: "Gầy (Healthy)",
+        badge: "Thanh mát 🌿",
+        name: "Phở cuốn",
+        description: "Bánh phở mềm mát cuốn thịt bò đậm vị, xà lách rau thơm xanh non chấm mắm chua ngọt thanh mát.",
+        price: "12.000 / Hộp (3c)",
         image: "images/phocuon.jpg",
         fallbackImage: "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&w=600&q=80"
       },
       {
         id: 12,
         category: "do-heo-thi",
-        categoryName: "Đồ heo thì",
-        name: "Cơm gạo lứt muối vừng (hộp)",
-        description: "Gạo lứt dẻo bùi kết hợp muối vừng thơm lừng, bổ dưỡng cho sức khỏe.",
-        price: 15000,
+        categoryName: "Gầy (Healthy)",
+        badge: "Bổ dưỡng 🌾",
+        name: "Cơm gạo nứt muối vừng",
+        description: "Gạo lứt dẻo bùi giàu dinh dưỡng kết hợp muối vừng giã tay thơm nức mũi, lành mạnh thanh lọc cơ thể.",
+        price: "15.000 / Hộp",
         image: "images/comgaolut.jpg",
         fallbackImage: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80"
       },
       {
         id: 13,
         category: "do-heo-thi",
-        categoryName: "Đồ heo thì",
-        name: "Sắn cốt dừa (đĩa)",
-        description: "Sắn bở bùi ngập tràn nước cốt dừa béo ngậy thơm nức mũi.",
-        price: 15000,
-        image: "https://th.bing.com/th/id/OIP.u2HkZYtLG2NCma7W18kBEAHaHa?w=158&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
+        categoryName: "Gầy (Healthy)",
+        badge: "Thơm béo 🥥",
+        name: "Sắn cốt dừa",
+        description: "Sắn bở tơi ngậy thơm, chan đẫm nước cốt dừa sánh béo ngậy rắc dừa nạo sợi giòn bùi nức mũi.",
+        price: "15.000 / Đĩa",
+        image: "https://fooddaily.vn/wp-content/uploads/2025/04/MON-AN-VIET-NAMM-6.jpg",
         fallbackImage: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=600&q=80"
-      },
-      {
-        id: 14,
-        category: "khac",
-        categoryName: "Khác",
-        name: "Bánh dày bán lẻ (cặp)",
-        description: "Bánh dày trắng dẻo dai nguyên bản cho ngày mới.",
-        price: 10000,
-        image: "https://th.bing.com/th/id/OIP.2mfJFNiXP3UI-BRFulq6UgHaE8?w=248&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
-        fallbackImage: "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=600&q=80"
       },
       {
         id: 8,
         category: "do-heo-thi",
-        categoryName: "Đồ heo thì",
-        name: "Ngô luộc (bắp)",
-        description: "Bắp ngô ngọt thanh mọng nước, thanh lọc cho bữa sáng nhẹ nhàng.",
-        price: 15000,
+        categoryName: "Gầy (Healthy)",
+        badge: "Ngọt thanh 🌽",
+        name: "Ngô lụt",
+        description: "Bắp ngô nếp luộc dẻo ngọt từng hạt, mọng nước thơm dịu dàng, bữa sáng thanh lành giản dị.",
+        price: "12.000 / Bắp",
         image: "images/ngoluoc.jpg",
         fallbackImage: "https://images.unsplash.com/photo-1550583724-b2692b85b150?auto=format&fit=crop&w=600&q=80"
       },
+      {
+        id: 14,
+        category: "khac",
+        categoryName: "Món khác",
+        badge: "Truyền thống ⚪",
+        name: "Bánh dày",
+        description: "Cặp bánh dày trắng tinh dẻo dai nguyên bản từ nếp quê thơm lừng cho ngày mới thanh nhẹ.",
+        price: "10.000 / Cặp",
+        image: "https://th.bing.com/th/id/OIP.2mfJFNiXP3UI-BRFulq6UgHaE8?w=248&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
+        fallbackImage: "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=600&q=80"
+      }
     ];
 
     const categoryOrder = [
-      { key: "banh-trai", name: "Bánh trái" },
-      { key: "do-heo-thi", name: "Đồ heo thì" },
-      { key: "khac", name: "Khác" }
+      {
+        key: "banh-trai",
+        name: "Ăn chậm nhai kỹ",
+        icon: "🥐",
+        tagline: "Hương vị truyền thống bùi béo, nạp trọn năng lượng cho ngày mới"
+      },
+      {
+        key: "do-heo-thi",
+        name: "Gầy (Healthy)",
+        icon: "🥗",
+        tagline: "Thực đơn Eat Clean thanh đạm, ít calo, giữ dáng da đẹp"
+      },
+      {
+        key: "khac",
+        name: "Món khác",
+        icon: "🍱",
+        tagline: "Bán lẻ thêm nếu bạn cần làm các món liên quan đến bánh dày"
+      }
     ];
 
     let currentCategory = "all";
@@ -267,9 +774,9 @@
 
     function formatPrice(val) {
       if (typeof val === "number") {
-        return val.toLocaleString("vi-VN") + " đ";
+        return val.toLocaleString("vi-VN");
       }
-      return val.toString().includes("đ") ? val : val + " đ";
+      return val.toString().replace(/\s*đ$/i, "").replace(/\s*vnđ$/i, "").trim();
     }
 
     function renderMenu() {
@@ -282,12 +789,20 @@
         const matchCategory = currentCategory === "all" || item.category === currentCategory;
         const matchSearch = !query ||
           item.name.toLowerCase().includes(query) ||
-          item.description.toLowerCase().includes(query);
+          item.description.toLowerCase().includes(query) ||
+          item.categoryName.toLowerCase().includes(query);
         return matchCategory && matchSearch;
       });
 
       if (filtered.length === 0) {
-        container.innerHTML = `<div class="no-result">Không tìm thấy món nào phù hợp với từ khóa của bạn.</div>`;
+        container.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-icon">🔍</div>
+            <h3>Không tìm thấy món phù hợp</h3>
+            <p>Thử tìm từ khóa khác như "bánh", "kimbap", "khoai", "healthy"... nhé!</p>
+            <button class="reset-search-btn" onclick="resetSearch()">Xem tất cả món</button>
+          </div>
+        `;
         return;
       }
 
@@ -296,36 +811,52 @@
         if (items.length === 0) return;
 
         const section = document.createElement("section");
+        section.className = "category-section";
         section.innerHTML = `
           <div class="section-title-wrap">
-            <span class="section-indicator"></span>
-            <h2 class="section-title">${cat.name}</h2>
-            <span class="section-count">${items.length} món</span>
+            <div class="section-header-left">
+              <div class="section-emoji-box">${cat.icon}</div>
+              <div>
+                <div class="section-title-row">
+                  <h2 class="section-title">${cat.name}</h2>
+                  <span class="section-count">${items.length} món</span>
+                </div>
+                <p class="section-tagline">${cat.tagline}</p>
+              </div>
+            </div>
           </div>
+
           <div class="food-list">
             ${items.map(item => `
-              <div class="food-card">
-                <div class="food-img-wrapper" onclick="openLightbox(${item.id})" title="Nhấn để xem ảnh phóng to">
+              <div class="food-card" data-id="${item.id}">
+                <div class="food-img-wrapper" onclick="openLightbox(${item.id})" title="Nhấn để xem ảnh to">
                   <img class="food-img" 
                        src="${item.image}" 
                        onerror="this.src='${item.fallbackImage}'" 
                        alt="${item.name}" 
                        loading="lazy" />
-                  <div class="mobile-eye-badge">
+                  ${item.badge ? `<span class="food-tag">${item.badge}</span>` : ''}
+                  
+                  <div class="view-overlay">
                     <svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                    <span>Xem ảnh to</span>
                   </div>
-                  <button class="view-eye-btn" type="button">
-                    <svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
-                    <span>Xem to</span>
-                  </button>
+                  
+                  <div class="mobile-expand-hint">
+                    <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+                  </div>
                 </div>
+
                 <div class="food-info">
-                  <div>
-                    <div class="food-name">${item.name}</div>
-                    <div class="food-desc">${item.description}</div>
+                  <div class="food-info-top" onclick="openLightbox(${item.id})">
+                    <h3 class="food-name">${item.name}</h3>
+                    <p class="food-desc">${item.description}</p>
                   </div>
-                  <div class="food-price-row">
-                    <div class="food-price">${formatPrice(item.price)}</div>
+
+                  <div class="food-bottom-row">
+                    <div class="food-price-badge" onclick="openLightbox(${item.id})">
+                      <span class="price-val">${formatPrice(item.price)}</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -340,10 +871,12 @@
     const modal = document.getElementById("lightboxModal");
     const closeBtn = document.getElementById("closeLightboxBtn");
     const lbImg = document.getElementById("lightboxImg");
+    const lbBadge = document.getElementById("lightboxBadge");
     const lbCategory = document.getElementById("lightboxCategory");
     const lbTitle = document.getElementById("lightboxTitle");
     const lbDesc = document.getElementById("lightboxDesc");
     const lbPrice = document.getElementById("lightboxPrice");
+    const lbBackdrop = modal.querySelector(".lightbox-backdrop");
 
     function openLightbox(id) {
       const item = menuData.find(m => m.id === id);
@@ -351,6 +884,14 @@
 
       lbImg.src = item.image;
       lbImg.onerror = () => { lbImg.src = item.fallbackImage; };
+
+      if (item.badge) {
+        lbBadge.textContent = item.badge;
+        lbBadge.style.display = "inline-flex";
+      } else {
+        lbBadge.style.display = "none";
+      }
+
       lbCategory.textContent = item.categoryName;
       lbTitle.textContent = item.name;
       lbDesc.textContent = item.description;
@@ -366,9 +907,7 @@
     }
 
     closeBtn.addEventListener("click", closeLightbox);
-    modal.addEventListener("click", (e) => {
-      if (e.target === modal) closeLightbox();
-    });
+    lbBackdrop.addEventListener("click", closeLightbox);
 
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape" && modal.classList.contains("active")) {
@@ -383,15 +922,170 @@
         btn.classList.add("active");
         currentCategory = btn.getAttribute("data-category");
         renderMenu();
+
+        // Tự động cuộn mượt đến tab trên mobile
+        btn.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
       });
     });
 
     // Tìm kiếm
-    document.getElementById("searchInput").addEventListener("input", (e) => {
+    const searchInput = document.getElementById("searchInput");
+    const clearSearchBtn = document.getElementById("clearSearchBtn");
+
+    searchInput.addEventListener("input", (e) => {
       searchQuery = e.target.value;
+      clearSearchBtn.style.display = searchQuery ? "flex" : "none";
       renderMenu();
     });
 
+    clearSearchBtn.addEventListener("click", () => {
+      resetSearch();
+    });
+
+    function resetSearch() {
+      searchQuery = "";
+      searchInput.value = "";
+      clearSearchBtn.style.display = "none";
+      currentCategory = "all";
+      document.querySelectorAll(".tab-btn").forEach(b => {
+        b.classList.toggle("active", b.getAttribute("data-category") === "all");
+      });
+      renderMenu();
+      searchInput.focus();
+    }
+
+    // Sao chép số điện thoại & Toast
+    let toastTimeout;
+    function copyPhoneNumber(phone) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(phone).then(() => {
+          showToast(`Đã sao chép SĐT: ${phone} 📋`);
+        }).catch(() => {
+          fallbackCopyText(phone);
+        });
+      } else {
+        fallbackCopyText(phone);
+      }
+    }
+
+    function fallbackCopyText(text) {
+      const tempInput = document.createElement("input");
+      tempInput.value = text;
+      document.body.appendChild(tempInput);
+      tempInput.select();
+      try {
+        document.execCommand("copy");
+        showToast(`Đã sao chép SĐT: ${text} 📋`);
+      } catch (err) {
+        showToast(`SĐT: ${text}`);
+      }
+      document.body.removeChild(tempInput);
+    }
+
+    function showToast(message) {
+      const toast = document.getElementById("toastPopup");
+      const msg = document.getElementById("toastMsg");
+      msg.textContent = message;
+      toast.classList.add("show");
+
+      clearTimeout(toastTimeout);
+      toastTimeout = setTimeout(() => {
+        toast.classList.remove("show");
+      }, 2500);
+    }
+
+    // Chuyển đổi tab QR (Chỉ hiện 1 mã, chống quét nhầm 100%)
+    function switchQRTab(target) {
+      document.querySelectorAll(".qr-tab-btn").forEach(btn => {
+        btn.classList.toggle("active", btn.getAttribute("data-qrtarget") === target);
+      });
+      document.querySelectorAll(".qr-focus-panel").forEach(panel => {
+        panel.classList.toggle("active", panel.id === `qrPanel-${target}`);
+      });
+    }
+
+    // Chuyển đổi chế độ: Xem từng mã vs Xem cả 3 mã
+    function setQRViewMode(mode) {
+      const singleCont = document.getElementById("qrSingleContainer");
+      const allGrid = document.getElementById("qrAllGrid");
+      const btnSingle = document.getElementById("qrToggleSingle");
+      const btnAll = document.getElementById("qrToggleAll");
+
+      if (mode === "all") {
+        singleCont.style.display = "none";
+        allGrid.style.display = "grid";
+        btnSingle.classList.remove("active");
+        btnAll.classList.add("active");
+      } else {
+        singleCont.style.display = "block";
+        allGrid.style.display = "none";
+        btnSingle.classList.add("active");
+        btnAll.classList.remove("active");
+      }
+    }
+
+    // Modal Phóng to quét mã QR riêng biệt
+    const qrModal = document.getElementById("qrModal");
+    const qrModalImg = document.getElementById("qrModalImg");
+    const qrModalTitle = document.getElementById("qrModalTitle");
+    const qrModalSubtitle = document.getElementById("qrModalSubtitle");
+    const qrModalActionSlot = document.getElementById("qrModalActionSlot");
+
+    function openQRModal(imgSrc, title, subtitle, directLink) {
+      qrModalImg.src = imgSrc;
+      qrModalTitle.textContent = title;
+      qrModalSubtitle.textContent = subtitle;
+      if (directLink) {
+        const isReview = directLink.includes("forms.gle");
+        const btnClass = isReview ? "btn-review-direct" : "btn-zalo-direct";
+        const btnText = isReview ? "Mở Google Form đánh giá" : "Mở liên kết trực tiếp";
+        qrModalActionSlot.innerHTML = `
+          <a href="${directLink}" target="_blank" rel="noopener" class="qr-action-btn ${btnClass}">
+            <span>${btnText}</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        `;
+        qrModalActionSlot.style.display = "block";
+      } else {
+        qrModalActionSlot.innerHTML = "";
+        qrModalActionSlot.style.display = "none";
+      }
+      qrModal.classList.add("active");
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeQRModal() {
+      qrModal.classList.remove("active");
+      document.body.style.overflow = "";
+    }
+
+    // Đóng khi click ra vùng ngoài card hoặc ấn Esc
+    qrModal.addEventListener("click", (e) => {
+      if (e.target === qrModal) {
+        closeQRModal();
+      }
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && qrModal.classList.contains("active")) {
+        closeQRModal();
+      }
+    });
+
+    function copyMenuUrl() {
+      const url = window.location.href;
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(() => {
+          showToast("Đã sao chép link Menu Web! 📋");
+        }).catch(() => {
+          fallbackCopyText(url);
+        });
+      } else {
+        fallbackCopyText(url);
+      }
+    }
+
+    // Khởi chạy ban đầu
     renderMenu();
   </script>
 </body>
